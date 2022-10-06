@@ -4,6 +4,6 @@ module.exports = {
     '^@/(.+)': '<rootDir>/src/$1'
   },
   transform: {
-    '^.+\\.(ts|tsx)$': 'ts-jest'
+    '^.+\\.tsx?$': 'ts-jest'
   }
 }
